@@ -19,8 +19,8 @@ In dieser Anleitung wird die Einrichtung einer Ansible IT-LAB Umgebung auf Grund
 
 ```
 cd w:\tutoial
-git clone git@github.com:movali/itlab.git
-cd itlab
+git clone git@github.com:movali/vagrantLAB.git
+cd vagrantLAB
 code .
 
 # Terminal in VS-Code öffnen und in den Ordner vagrantLAB wechseln
@@ -33,7 +33,7 @@ vagrant plugin install vagrant-reload
 vagrant up --provider hyperv
 ```
 
-- ISSUE1/ Workaround Von Default Switch auf labLAN umstellen`.\scripts\defaultSwitch2labLAN.ps1`
+- ISSUE1/ Workaround Von Default Switch auf VT-LAN-11 umstellen`.\scripts\defaultSwitch2labLAN.ps1`
 
 ```
 # Mit dem CTL, in diesem Fall der Ansible Container SSH-Key austauschen. Hierfür die Git-Bash Konsole verwenden
